@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/QuanLySinhVien" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Lap\ trinh\\Thuc\ hanh\ tin\ hoc\\ASP\ MVC\\QuanLySinhVien\\QuanLySinhVien\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\Lap\ trinh\\Thuc\ hanh\ tin\ hoc\\ASP\ MVC\\QuanLySinhVien\\QuanLySinhVien\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SchoolContext-Web.config Connection String" description="SchoolContext Connection String used in web.config by the application to access the database." value="Data Source=VIKING;Initial Catalog=QuanLySinhVien;user id=sa;password=123456;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Lap\ trinh\\Thuc\ hanh\ tin\ hoc\\ASP\ MVC\\QuanLySinhVien\\QuanLySinhVien\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
+  </parameter>
+  <parameter name="QuanLySinhVien.SchoolInitializer-Web.config Connection String" description="QuanLySinhVien.SchoolInitializer Connection String used in web.config by the application to access the database." value="QuanLySinhVien.SchoolInitializer_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Lap\ trinh\\Thuc\ hanh\ tin\ hoc\\ASP\ MVC\\QuanLySinhVien\\QuanLySinhVien\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QuanLySinhVien.SchoolInitializer']/@connectionString" />
+  </parameter>
+</parameters>

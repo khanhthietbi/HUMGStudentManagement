@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SchoolContext-Web.config Connection String" description="SchoolContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=VIKING;Initial Catalog=QuanLySinhVien;user id=sa;password=123456;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Lap\ trinh\\Thuc\ hanh\ tin\ hoc\\ASP\ MVC\\QuanLySinhVien\\QuanLySinhVien\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
+  </parameter>
+  <parameter name="QuanLySinhVien.SchoolInitializer-Web.config Connection String" description="QuanLySinhVien.SchoolInitializer Connection String used in web.config by the application to access the database." defaultValue="QuanLySinhVien.SchoolInitializer_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Lap\ trinh\\Thuc\ hanh\ tin\ hoc\\ASP\ MVC\\QuanLySinhVien\\QuanLySinhVien\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QuanLySinhVien.SchoolInitializer']/@connectionString" />
+  </parameter>
+</parameters>
